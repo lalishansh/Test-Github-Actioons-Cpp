@@ -1,0 +1,8 @@
+{
+  "name": "test-module",
+  "version": "0",
+  "description": "Testing Github capabilities with C++ projects",
+  "homepage": "https://example.com",
+  "license": "MIT",
+  "dependencies": []
+}

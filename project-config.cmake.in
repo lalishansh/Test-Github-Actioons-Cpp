@@ -1,0 +1,9 @@
+cmake_policy(SET CMP0012 NEW)
+
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+string(REGEX REPLACE "(.*)(-c|C)onfig\\.cmake$" "\\1Targets.cmake"
+        targets_file "${CMAKE_CURRENT_LIST_FILE}")
+include("${targets_file}")
